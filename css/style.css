@@ -63,7 +63,8 @@ h1{
 
 
 /* button style part */
-button{
+.button,
+.save-btn{
     border: none;
     background-color: rgba(255, 0, 0, 0.486);
     padding: .5rem 2.5rem;

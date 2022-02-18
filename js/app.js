@@ -49,3 +49,9 @@ function saveMoney() {
         remainingBalance.innerText = parseFloat(balance.innerText) - savesMoney;
     }
 }
+
+let btnClear = document.getElementById('reset-btn');
+let inputs = document.querySelectorAll('input');
+btnClear.addEventListener('click', () => {
+    inputs.forEach(input =>  input.value = '');
+});
