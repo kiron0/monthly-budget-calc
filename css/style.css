@@ -82,6 +82,10 @@ h1{
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 420px) {
+    main{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
     .money-master-img{
         margin-top: 0rem;
     }
@@ -93,6 +97,10 @@ h1{
     .save-btn{
         margin-top: 12px;
         margin-left: 5px;
+    }
+    .save-btn,
+    .button{
+        width: 40%;
     }
 
     .expenses-section{
@@ -124,5 +132,8 @@ h1{
 @media screen and (min-width: 992px) {
     input{
         font-size: 1.3rem;
+    }
+    body{
+        overflow: hidden;
     }
 }
